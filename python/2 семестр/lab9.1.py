@@ -9,10 +9,13 @@ print("Найдовше слово: ", longest_word)
 vowels = "аеєиіїоуюя"
 consonants = "бвгґджзйклмнпрстфхцчшщ"
 words = text.lower().split()
+
 # Функція, що рахує кількість приголосних літер у слові
+
 
 def count_consonants(word):
     return sum(1 for letter in word if letter in consonants)
+
 
 # Видаляємо слова з непарною кількістю приголосних літер
 for word in words:
