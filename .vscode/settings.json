@@ -1,7 +1,4 @@
 {
-    "projectManager.git.baseFolders": [
-        "/Users/vadimpavlichenko/Documents/projects"
-    ],
     "[python]": {
         "editor.defaultFormatter": "ms-python.autopep8"
     },
